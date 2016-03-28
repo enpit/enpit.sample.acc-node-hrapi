@@ -1,0 +1,15 @@
+{
+  "name": "acc-node-hrapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prepublish": "zip -r acc-node-hrapi-dist.zip manifest.json *.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Andreas Koop <andreas.koop@enpit.de>",
+  "engindes": {
+      "node": "0.12"
+  }
+}
